@@ -22,4 +22,19 @@ class FindCommonCharactersTests: XCTestCase {
         let cc = CommonCharacters()
         XCTAssertNotNil(cc)
     }
+    
+    func testThatGivenAnEmptyArrayThefindDuplicateCharactersWillreturnAnEmptyArray() {
+        let fcc = CommonCharacters()
+        let input = [String]()
+        let output = fcc.findCommonChars(input)
+        XCTAssertEqual([], output)
+    }
+
+    func testThatGivenAnArrayOfThreeWordsTheDuplocatesCharactersWillBeReturned() {
+        let fcc = CommonCharacters()
+        let input = ["cool","lock","cook"]
+        let expected = ["c","o"]
+        let output = fcc.findCommonChars(input)
+        XCTAssertEqual(expected, output)
+    }
 }
