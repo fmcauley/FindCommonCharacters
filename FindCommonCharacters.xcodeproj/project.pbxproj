@@ -11,6 +11,10 @@
 		F0C4FA422554CE930019641E /* FindCommonCharactersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C4FA412554CE930019641E /* FindCommonCharactersTests.swift */; };
 		F0C4FA442554CE930019641E /* FindCommonCharacters.h in Headers */ = {isa = PBXBuildFile; fileRef = F0C4FA362554CE930019641E /* FindCommonCharacters.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0C4FA502554CFDF0019641E /* CommonCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C4FA4F2554CFDF0019641E /* CommonCharacters.swift */; };
+		F0FB4A4B255B7B2000C76325 /* HashTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FB4A4A255B7B2000C76325 /* HashTableTests.swift */; };
+		F0FB4A4F255B7B4C00C76325 /* HashTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FB4A4E255B7B4C00C76325 /* HashTable.swift */; };
+		F0FB4A53255B7FEE00C76325 /* Chain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FB4A52255B7FEE00C76325 /* Chain.swift */; };
+		F0FB4A57255B805600C76325 /* ChainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FB4A56255B805600C76325 /* ChainTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +35,10 @@
 		F0C4FA412554CE930019641E /* FindCommonCharactersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCommonCharactersTests.swift; sourceTree = "<group>"; };
 		F0C4FA432554CE930019641E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0C4FA4F2554CFDF0019641E /* CommonCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonCharacters.swift; sourceTree = "<group>"; };
+		F0FB4A4A255B7B2000C76325 /* HashTableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashTableTests.swift; sourceTree = "<group>"; };
+		F0FB4A4E255B7B4C00C76325 /* HashTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashTable.swift; sourceTree = "<group>"; };
+		F0FB4A52255B7FEE00C76325 /* Chain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chain.swift; sourceTree = "<group>"; };
+		F0FB4A56255B805600C76325 /* ChainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +84,8 @@
 				F0C4FA362554CE930019641E /* FindCommonCharacters.h */,
 				F0C4FA372554CE930019641E /* Info.plist */,
 				F0C4FA4F2554CFDF0019641E /* CommonCharacters.swift */,
+				F0FB4A4E255B7B4C00C76325 /* HashTable.swift */,
+				F0FB4A52255B7FEE00C76325 /* Chain.swift */,
 			);
 			path = FindCommonCharacters;
 			sourceTree = "<group>";
@@ -84,7 +94,9 @@
 			isa = PBXGroup;
 			children = (
 				F0C4FA412554CE930019641E /* FindCommonCharactersTests.swift */,
+				F0FB4A56255B805600C76325 /* ChainTests.swift */,
 				F0C4FA432554CE930019641E /* Info.plist */,
+				F0FB4A4A255B7B2000C76325 /* HashTableTests.swift */,
 			);
 			path = FindCommonCharactersTests;
 			sourceTree = "<group>";
@@ -198,6 +210,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0FB4A53255B7FEE00C76325 /* Chain.swift in Sources */,
+				F0FB4A4F255B7B4C00C76325 /* HashTable.swift in Sources */,
 				F0C4FA502554CFDF0019641E /* CommonCharacters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,6 +220,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0FB4A57255B805600C76325 /* ChainTests.swift in Sources */,
+				F0FB4A4B255B7B2000C76325 /* HashTableTests.swift in Sources */,
 				F0C4FA422554CE930019641E /* FindCommonCharactersTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
