@@ -10,6 +10,7 @@
 		F0C4FA3D2554CE930019641E /* FindCommonCharacters.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C4FA332554CE930019641E /* FindCommonCharacters.framework */; };
 		F0C4FA422554CE930019641E /* FindCommonCharactersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C4FA412554CE930019641E /* FindCommonCharactersTests.swift */; };
 		F0C4FA442554CE930019641E /* FindCommonCharacters.h in Headers */ = {isa = PBXBuildFile; fileRef = F0C4FA362554CE930019641E /* FindCommonCharacters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0C4FA502554CFDF0019641E /* CommonCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C4FA4F2554CFDF0019641E /* CommonCharacters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		F0C4FA3C2554CE930019641E /* FindCommonCharactersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindCommonCharactersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C4FA412554CE930019641E /* FindCommonCharactersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCommonCharactersTests.swift; sourceTree = "<group>"; };
 		F0C4FA432554CE930019641E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0C4FA4F2554CFDF0019641E /* CommonCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonCharacters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				F0C4FA362554CE930019641E /* FindCommonCharacters.h */,
 				F0C4FA372554CE930019641E /* Info.plist */,
+				F0C4FA4F2554CFDF0019641E /* CommonCharacters.swift */,
 			);
 			path = FindCommonCharacters;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				TargetAttributes = {
 					F0C4FA322554CE930019641E = {
 						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1200;
 					};
 					F0C4FA3B2554CE930019641E = {
 						CreatedOnToolsVersion = 12.0;
@@ -194,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0C4FA502554CFDF0019641E /* CommonCharacters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +345,7 @@
 		F0C4FA482554CE930019641E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -357,6 +363,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = fm.FindCommonCharacters;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -364,6 +371,7 @@
 		F0C4FA492554CE930019641E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -388,6 +396,7 @@
 		F0C4FA4B2554CE930019641E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = T2XWZFPH38;
@@ -406,6 +415,7 @@
 		F0C4FA4C2554CE930019641E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = T2XWZFPH38;
